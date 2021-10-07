@@ -1,0 +1,421 @@
+#page-landing{   
+
+    font-family: 'poppins';
+}
+
+#page-landing {
+
+    color:#0d5cf4;
+}
+
+#block1{
+    
+    background: white;
+    padding: 8rem;
+    height: 260rem;
+}
+
+#menu ul {
+
+    position: absolute;
+    padding: 20px;
+    margin:0px;
+    background-color: #0d5cf4;
+    
+    width: 5000rem;    
+}
+
+#menu ul li { 
+
+    display: inline;     
+}
+
+#menu ul li a {
+
+    padding: 4px 10px;     
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+
+    border-bottom:3px solid #162d59;
+}
+
+.logo-img{
+
+    position: absolute;
+    max-width: 15%;
+    margin-top: 5px;
+    margin-left:80px;
+}
+
+/*Block 1*/
+
+.text-home{
+
+    margin-left: 80rem;
+}
+
+.logo-img{
+
+    position: absolute;
+    max-width: 15%;
+    margin-top: 5px;
+    margin-left:80px;
+}
+
+.text2{
+
+    position: absolute;
+    background-color: #0d5cf4;
+    margin-top: 20px;
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1%;
+}
+
+.text2 h2{
+
+    margin-left: 5rem;
+    
+    font-size:30px;
+    line-height: 60px;
+    color: white;
+}
+
+.img-container{
+
+    max-width: 20%;
+    margin-top: 25rem;
+}
+
+.buttons-container{
+
+    display:flex;
+    justify-content:center;
+
+    margin:3.2rem 0;
+}
+
+.buttons-container a {
+
+    width:30rem;
+    height: 36rem;
+
+    border-radius: .8rem;
+    
+    
+    font:700 2.4rem Archivo;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+
+    transition:background 0.2s;
+
+    color: #0d5cf4;
+}
+
+.button-container a img{
+
+    width: 4rem;    
+}
+
+.buttons-container a.study{
+
+    position:absolute;
+    background:#F0F2F5;
+    margin-top: 10rem;
+    margin-right:15rem;    
+}
+
+.buttons-container a.study:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.give-classes{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 10rem;
+    margin-right: 80rem;
+}
+
+.buttons-container a.give-classes:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.give-classes4{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 55rem;
+    margin-right: 80rem;    
+}
+
+.buttons-container a.give-classes4:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.study4{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 55rem;
+    margin-right:25rem;
+    margin-left: 10rem;
+    
+}
+
+.buttons-container a.study4:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.study5{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 100rem;
+    margin-right:25rem;
+    margin-left: 10rem;
+    
+}
+
+.buttons-container a.study5:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.give-classes5{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 100rem;
+    margin-right: 80rem;    
+}
+
+.buttons-container a.give-classes5:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.study6{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 195rem;
+    margin-right:25rem;
+    margin-left: 10rem;    
+}
+
+.buttons-container a.study6:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.give-classes6{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 145rem;
+    margin-right: 80rem;    
+}
+
+.buttons-container a.give-classes6:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.buttons-container a.give-classes7{
+
+    position: absolute;
+    background:#F0F2F5;
+    margin-top: 195rem;
+    margin-right: 80rem;
+}
+
+.buttons-container a.give-classes7:hover{
+
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%);
+    transform: scale(1.05);
+}
+
+.image-video{
+
+    max-width: 80%;
+    margin-left: 35px;    
+}
+
+.image-port{
+
+    max-width: 80%;
+    margin-left: 35px;    
+}
+
+.image-activity{
+
+    max-width: 80%;
+    
+    margin-left: 30px;  
+    display: flex;    
+}
+
+.text3{
+
+    position: absolute;
+    background-color: #0d5cf4;
+    margin-top: 50rem;
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1%;
+    margin-right: 43rem;
+}
+
+.text3 h2{
+
+    margin-left: 5rem;
+    
+    font-size:30px;
+    line-height: 60px;
+    color: white;
+}
+
+.text4{
+
+    position: absolute;
+    background-color: #0d5cf4;
+    margin-top: 95rem;
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1%;
+    margin-right: 43rem;
+}
+
+.text4 h2{
+
+    margin-left: 5rem;
+    
+    font-size:30px;
+    line-height: 60px;
+    color: white;
+}
+
+
+.text5{
+
+    position: absolute;
+    background-color: #0d5cf4;
+    margin-top: 140rem;
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1%;
+    margin-right: 43rem;
+}
+
+.text5 h2{
+
+    margin-left: 5rem;
+    
+    font-size:30px;
+    line-height: 60px;
+    color: white;
+}
+
+.text6{
+
+    position: absolute;
+    background-color: #0d5cf4;
+    margin-top: 189rem;
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1%;
+    margin-right: 43rem;
+}
+
+.text6 h2{
+
+    margin-left: 5rem;
+    
+    font-size:30px;
+    line-height: 60px;
+    color: white;
+}
+
+.image-mat{
+
+    max-width: 80%;
+    margin-left: 30px;
+}
+
+.image-teste{
+    
+    max-width: 80%;
+   
+    margin-left: 30px;  
+    display: flex;    
+}
+
+@media (min-width:1100px) {
+    #page-landing #container{
+        max-width: 1100px;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px 1fr;
+        grid-template-areas:"proffy image image "
+        "button button texting ";        
+    }
+
+    .logo-container{
+        grid-area: proffy;
+        text-align:initial;
+        align-self: center;
+        margin: 0 ;
+    }
+
+    .logo-container img{
+        height: 100%;
+        height: 127px;
+
+    }
+
+    .text-container{
+        grid-area: sobre;
+        text-align:initial;
+        align-self: center;
+        margin: 0 ;
+    }
+
+    
+   
+
+    .hero-image{
+        grid-area: image;
+        height:350px;
+    }
+}

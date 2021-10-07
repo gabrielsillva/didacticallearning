@@ -1,0 +1,57 @@
+#page-landing{   
+     
+    font-family: 'poppins';
+}
+
+#page-landing {
+
+    color:#0d5cf4;
+}
+
+#block1{
+
+    background: white;     
+}
+
+#menu ul {
+    position: absolute;
+    padding: 20px;
+    margin:0px;
+    background-color: #0d5cf4;
+    
+    width: 5000rem;    
+}
+
+#menu ul li { 
+    display: inline;     
+}
+
+#menu ul li a {
+    padding: 4px 10px;     
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    border-bottom:3px solid #162d59;
+}
+
+.logo-img{
+
+    position: absolute;
+    max-width: 15%;
+    margin-top: 5px;
+    margin-left:80px;
+}
+
+.text-home{
+
+    margin-left: 80rem;
+}
+
+.player{
+
+    margin-left: 20rem;
+    margin-top: 15rem;
+}

@@ -1,0 +1,55 @@
+<html >
+  <head>
+    <title>Quiz para o E.F 1</title>
+  <script type="text/javascript" language="javascript">
+    var inicio=confirm('Bem-Vindo ao Quiz de matemática! Você tem certeza de que quer participar?');
+    var sair = "<html><head><title>Voce nao quis participar</title></head><body>Obrigado pela sua resposta!<br></body></html>";
+    if(inicio==false){document.write(sair);}
+    else{ window.alert('Iniciou o game! Clique em Ok abaixo para iniciar');
+    var certo = "<b>Correto!</b>"; var errado = "<b style='color:red;'>Errado!</b>";var o = new Array();
+    var acertos=0; var erros=0; var respostas = new Array(); var p = new Array();var r = new Array();
+    var t=5; 
+    p[1] = "Quanto e 2+2?";
+    r[1] = 4;
+    p[2] = "Quanto e 5+5?";
+    r[2] = 10;
+    p[3] = "Quanto e 3x3?";
+    r[3] = 9;
+    p[4] = "Quanto e 5x5?";
+    r[4] = 25;
+    p[5] = "Quanto e 4x2?";
+    r[5] = 8;
+     for(var i=1;i<=t;i++){o[i] = i;} 
+     for(var i=1;i<=10;i++)
+     {
+      n=Math.round(t(Math.random())); 
+      m=Math.round(t(Math.random()));
+      if(m==0){m++;}
+      if(n==0){n++;}
+      var temp = o[n];
+      o[n]=o[m];
+      o[m]=temp;
+     } 
+    for(var i=1;i<=t;i++)
+    {
+      respostas[o[i]] = prompt(p[o[i]],"");
+       if(respostas[o[i]]==r[o[i]]){respostas[o[i]]=certo;acertos++;}else{respostas[o[i]]=errado;erros++;}
+     }
+    document.write("Quiz de Matemática:<br><br>Suas respostas:<br><br>");
+    document.write("<ol>");
+    for(var i=1;i<=t;i++)
+    {
+    document.write("<li>"+respostas[o[i]]);}
+    document.write("</ol>");
+    document.write("<br>Total de acertos: "+acertos);
+    document.write("<br>Total de erros: "+erros);
+    document.write("<br><br><input type=button value='Respostas' Onclick=javascript:if(document.getElementById('rp').style.display=='none'){document.getElementById('rp').style.display='block';}else{document.getElementById('rp').style.display='none';}>");
+    document.write("<br><div id='rp' class='rp' style='display:none;'><ol>");
+    for(var i=1;i<=t;i++)
+     { document.write("<li>"+p[o[i]]+"<br>R:"+r[o[i]]);}
+    document.write("</ol></div>");
+   }
+  </script>
+ </head>
+</body>
+</html>

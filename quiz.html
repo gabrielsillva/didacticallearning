@@ -2,7 +2,7 @@
   <head>
     <title>Quiz para o E.F 1</title>
   <script type="text/javascript" language="javascript">
-    var inicio=confirm('Bem-Vindo ao Quiz de matemática! Você tem certeza de que quer participar?');
+    var inicio=confirm('Bem-Vindo ao Quiz em javascript!nVoce tem certeza de que quer participar?');
     var sair = "<html><head><title>Voce nao quis participar</title></head><body>Obrigado pela sua resposta!<br></body></html>";
     if(inicio==false){document.write(sair);}
     else{ window.alert('Iniciou o game! Clique em Ok abaixo para iniciar');
@@ -20,10 +20,10 @@
     p[5] = "Quanto e 4x2?";
     r[5] = 8;
      for(var i=1;i<=t;i++){o[i] = i;} 
-     for(var i=1;i<=10;i++)
+     for(var i=1;i<=10;i++)          
      {
-      n=Math.round(t(Math.random())); 
-      m=Math.round(t(Math.random()));
+      n=Math.round(t*(Math.random())); 
+      m=Math.round(t*(Math.random()));
       if(m==0){m++;}
       if(n==0){n++;}
       var temp = o[n];
@@ -51,5 +51,5 @@
    }
   </script>
  </head>
-</body>
+ <body></body>
 </html>

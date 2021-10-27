@@ -1,0 +1,84 @@
+
+/*Home bar*/
+#menu ul {
+
+    position: absolute;
+    padding: 20px;
+    margin:0px;
+    background-color: #0d5cf4;
+    
+    width: 80rem;
+    
+}
+
+#menu ul li { 
+
+    display: inline;     
+}
+
+#menu ul li a {
+
+    padding: 4px 10px;     
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+
+    border-bottom:3px solid #162d59;
+}
+
+.text-home{
+    font-family: "archivo";
+    margin-left: 70rem;
+}
+
+
+.logo-img{
+
+    position: absolute;
+    max-width: 15%;
+    margin-top: 5px;
+    margin-left:80px;
+}
+
+
+.text{
+    margin-top: 2000px;
+}
+
+.table{
+    margin-top: 11rem;
+    margin-left: 27rem;
+}
+
+.respostas{
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+#class{
+    margin-top: 20rem;
+}
+
+
+body{
+    height:100vh;
+    max-width: 1366;
+}
+
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+  }
+
+  * {
+    margin:0;
+    padding:0;
+   
+   
+}
